@@ -1,0 +1,18 @@
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+
+
+###
+WEBSOCKET ws://localhost:6000/app
+Content-Type: text/plain // used only for IDE highlighting.
+// Highlighting is applied for each message independently.
+
+{"message":"Hi from client"}
+###
+
+WEBSOCKET ws://localhost:6000/app
+Content-Type: text/plain // used only for IDE highlighting.
+// Highlighting is applied for each message independently.
+
+{"message":"Hi from client 2"}
